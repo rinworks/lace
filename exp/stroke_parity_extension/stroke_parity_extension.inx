@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>Stroke Parity Color</name>
+  <id>org.inkscape.tutorial.stroke_parity_color</id>
+  <param name="remove_fill" type="bool" gui-text="Remove Fill">false</param>
+  <label appearance="header">Stroke color for path based on number of nodes</label>
+  <param name="tab" type="notebook">
+    <page name="even" gui-text="Even">
+      <param name="even_color" type="color" gui-text="Even Stroke color">4278190335</param>
+    </page>
+    <page name="odd" gui-text="Odd">
+      <param name="odd_color" type="color" gui-text="Odd Stroke color">65535</param>
+    </page>
+  </param>
+  <effect>
+    <effects-menu>
+      <submenu name="Modify Path"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">stroke_parity_extension.py</command>
+  </script>
+</inkscape-extension>
