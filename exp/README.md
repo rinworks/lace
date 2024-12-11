@@ -1,6 +1,14 @@
 # Experimental
 Create a folder for any side project to explore concepts
 
+## Resources
+Handy Inkscape extensions tutorial: https://inkscapetutorial.org/extension-get-started.html
+How to find folders for built-in and user-provided extensions: 
+Location of built-in extensions: `Edit -> Preferences -> System` lists lots of preferences. The `User extensions` and `Inkscape extensions` (or perhaps `System extensions`)fields list the corresponding directories. On Windows, these appear to be:
+- `C:\Users\<user_name>\AppData\Roaming\inkscape\extensions`
+- `C:\Program Files\Inkscape\share\inkscape\extensions`
+
+## Folder descriptions
 *template_effect*
 The template for extensions from [Inkscape Extension documentation](https://inkscape.gitlab.io/extensions/documentation/tutorial/my-first-effect-extension.html)
 
