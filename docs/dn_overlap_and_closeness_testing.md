@@ -4,7 +4,7 @@ Objects in a design will often need to be laid out without overlapping with othe
 in fact need to be separated by some distance. Some generative algorithms may need to control rate of
 growth based on how close they are to other objects.
 
-We need to decide what kinds of functions will help us achieve this, how to implement them.
+We need to decide what kinds of functions will help us achieve this and how to implement them.
 
 **Possible closeness functions**
 - `get_closest_object(this_object) -> (other_object, intersects:bool)` - returns the closest object
