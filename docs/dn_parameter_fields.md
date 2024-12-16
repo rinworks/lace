@@ -1,4 +1,5 @@
-# Parameter Fields These are fields that extend over the surface. The provide a vector of parameters
+# Parameter Fields 
+These are fields that extend over the surface. The provide a vector of parameters
 at any point on the surface. They can be used by generative algorithms to determine localized
 parameters. We do not place any constraint on how these fields are themselves generated or what
 parameters they contain.
