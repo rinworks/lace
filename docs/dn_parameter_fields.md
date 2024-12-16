@@ -12,7 +12,8 @@ parameters they contain.
   objects are spawned with greater concentrations near the borders of the enclosing shape.
 
 
-## Use Specific generative algorithms will look up parameters at a particular point and use that to
+## Use 
+Specific generative algorithms will look up parameters at a particular point and use that to
 spawn "seeds" of a graphic element. One technique to organically grow such designs is to
 incrementally grow the designs, each time visiting each element and growing it in size, using other
 elements of the field to control rate of growth and orientation of growth. Growing stops if there is
