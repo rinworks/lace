@@ -4,7 +4,7 @@ at any point on the surface. They can be used by generative algorithms to determ
 parameters. We do not place any constraint on how these fields are themselves generated or what
 parameters they contain.
 
-~Examples:~
+**Examples:**
 - *Symmetry fields*exhibits different kinds of 2D symmetry groups tiled over the surface. One
   example of this is a checkerboard pattern that dictates the preferred orientation of objects within
   each square).
