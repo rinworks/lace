@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="200" height="200"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<title>Viewport Examples</title>
+<desc>Viewport slicing</desc>
+
+<!-- shapes described inside defs are not rendered but can be referenced elsewhere-->
+<defs>
+<circle id="C1" cx="20" cy="20" r="20" style="stroke:black; fill:grey" />
+</defs>
+<!-- narrow, tall -->
+<rect x="0" y="5" width="30" height="80" style="stroke:blue; fill:none" />
+<!-- default alignment of viewBox is preserveAspectRatio="xMidYMid meet" -->
+<svg x="0px" y="5px" width="30px" height="80px"
+    viewBox="0 0 40 40" preserveAspectRatio="xMidYMid slice">
+    <use xlink:href="#C1" />
+</svg>
+
+<rect x="50" y="5" width="30" height="80" style="stroke:blue; fill:none" />
+<svg x="50px" y="5px" width="30px" height="80px"
+    viewBox="0 0 40 40" preserveAspectRatio="xMinYMin slice">
+    <use xlink:href="#C1" />
+</svg>
+
+<rect x="100" y="5" width="30" height="80" style="stroke:blue; fill:none" />
+<svg x="100px" y="5px" width="30px" height="80px"
+    viewBox="0 0 40 40" preserveAspectRatio="xMaxYMid slice">
+    <use xlink:href="#C1" />
+</svg>
+
+<!-- wide, short -->
+<rect x="0px" y="100" width="80" height="30" style="stroke:blue; fill:none" />
+<svg x="0px" y="100px" width="80px" height="30px"
+    viewBox="0 0 40 40" preserveAspectRatio="xMinYMid slice" >
+    <use xlink:href="#C1" />
+</svg>
+
+<rect x="0px" y="135px" width="80" height="30" style="stroke:blue; fill:none" />
+<svg x="0px" y="135px" width="80px" height="30px"
+    viewBox="0 0 40 40" preserveAspectRatio="xMinYMin slice">
+    <use xlink:href="#C1" />
+</svg>
+
+<rect x="0px" y="170px" width="80" height="30" style="stroke:blue; fill:none" />
+<svg x="0px" y="170px" width="80px" height="30px"
+    viewBox="0 0 40 40" preserveAspectRatio="xMinYMax slice">
+    <use xlink:href="#C1" />
+</svg>
+</svg>
+ 

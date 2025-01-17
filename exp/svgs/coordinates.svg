@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="400px" height="200px"
+     xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="10mm" height="10mm" style="fill:gray" />
+<text x="0" y="5mm" style="font-family: sans-serif; font-size:8pt; stroke:none; fill:black;"> 10mm</text>
+
+<rect x="10mm" y="0" width="1cm" height="1cm" style="fill:green" />
+<text x="10mm" y="5mm" style="font-family: sans-serif; font-size:8pt; stroke:none; fill:black;"> 1cm</text>
+
+<rect x="20mm" y="0" width="50px" height="50px" style="fill:red" />
+<text x="20mm" y="25px" style="font-family: sans-serif; font-size:8pt; stroke:none; fill:black;"> 50px</text>
+
+<rect x="40mm" y="0" width="50" height="50" style="fill:purple" />
+<text x="40mm" y="25px" style="font-family: sans-serif; font-size:8pt; stroke:none; fill:black;"> 50</text>
+
+<rect x="0mm" y="20mm" width="1in" height="1in" style="fill:blue" />
+<text x="0mm" y="1in" style="font-family: sans-serif; font-size:12pt; stroke:none; fill:black;"> 1in</text>
+
+<rect x="1in" y="20mm" width="25.4mm" height="25.4mm" style="fill:yellow" />
+<text x="1in" y="1in" style="font-family: sans-serif; font-size:12pt; stroke:none; fill:black;"> 25.4mm</text>
+
+<rect x="2in" y="20mm" width="72pt" height="6pc" style="fill:teal" />
+<text x="2in" y="1in" style="font-family: sans-serif; font-size:12pt; stroke:none; fill:black;"> 72pt x 6pc</text>
+</svg>
