@@ -1,6 +1,7 @@
 ## Notes about the Inkscape Python Extension ecosystem, python dependencies etc.
 
 - Where are useful tutorials on Inkscape extensions?
+  - [Inkscape extensions user docs](https://inkscape-manuals.readthedocs.io/en/latest/extensions.html)
   - https://inkscapetutorial.org/pages/extension.html
   - https://inkscape.gitlab.io/extensions/documentation/tutorial/index.html
   
