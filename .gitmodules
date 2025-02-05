@@ -1,0 +1,4 @@
+[submodule "extensions"]
+	path = extensions
+	url = https://gitlab.com/inkscape/extensions.git
+	branch = 1.4.x
