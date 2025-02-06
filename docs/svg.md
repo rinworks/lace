@@ -39,6 +39,9 @@ Rather than scale to fit, we can truncate the square viewBox to fit the rectangu
 
 ![svg viewport slicing](../exp/svgs/viewport2.svg)
 
+### Transforms
+The Transform implementations seem to have a bug that is now universal. Transforms specified in the *transform* attribute are applied in reverse order despite the spec saying the opposite. See [this thread](https://stackoverflow.com/questions/18582935/the-applying-order-of-svg-transforms) for the gory details.
+
 ### References
 - [tavmjong's guide](http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-SVG-Positioning.html)
 - Chapter 3 of *SVG Essentials* by J. David Eisenberg
