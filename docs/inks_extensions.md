@@ -40,6 +40,11 @@ To get a a Python development environment that works for testing the Inkscape ex
     If your shell is not already in a Python virtual environment, Poetry will create one. You can enter it with:
     `eval $(poetry env activate)`
 1. *Run the tests* with `pytest` from the *extensions* folder
+1. Run a specific extension from the command line by changing to the *extensions* folder and running the extension python file as in the example below
+    ```
+   python distribute_along_path.py --id=g12668 --id=path8143 tests/data/svg/scatter.svg
+    ```
+    The above example spits the modified svg to standard out by default.
 
 
 
