@@ -45,6 +45,7 @@ To get a a Python development environment that works for testing the Inkscape ex
    python distribute_along_path.py --id=g12668 --id=path8143 tests/data/svg/scatter.svg
     ```
     The above example spits the modified svg to standard out by default.
+1. Debug an extension in vscode using the Python debugging support. Make the extension .py file active in VSCODE and then use *Run->Start Debugging* or the debugger button on the left pane. The basic way (using the launch.json config) is to pass the command line arguments when prompted.  For example if *distribute_along_path.py* is the active file, `--id=g12668 --id=path8143 tests/data/svg/scatter.svg` can be entered in the *Command Line Arguments* prompt. Use standard debugger methods like F9 to set a breakpoint and F10 to step over.
 
 
 
