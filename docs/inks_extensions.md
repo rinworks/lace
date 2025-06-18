@@ -31,9 +31,26 @@ To get a a Python development environment that works for testing the Inkscape ex
     ```
     sudo apt install pipx
     pipx install poetry
+
+    # You may get a warning about 'username/.local/bin' is not on your PATH variable. If so run the 
+    # recommended command to add it... (else you can't run poetry by simply typing poetry)
+    pipx ensurepath
+    
+    [Now you will need to exit the terminal instance and re-start for the path to be updated.]
+
     ```
 1. *[Optional] Create or activate your Python Virtual Environment* 
-1. *Install Extensions Dependencies* with `poetry install`. This references the *pyproject.toml* file in the extensions directory.  Currently there is an error  from one dependency (*pycairo). Work around was to remove the top level dependency (*pygobject*):
+    ```
+    # Cd to the project folder (lace) and create a environment called '.venv'. Note that .gitignore
+    # includes '.venv/' so it will be ignored by git
+    python3 -m venv .venv
+    
+    # Start the environment...
+    source .venv/bin/activate
+    # The shell prompt should now have the prefix '(.venv)'
+    
+    ``` 
+1. *Install Extensions Dependencies* with `poetry install` after cding to the extensions folder. This references the *pyproject.toml* file in the extensions directory.  Currently there is an error  from one dependency (*pycairo*). Work around was to remove the top level dependency (*pygobject*):
     ```
     poetry remove pygobject
     ```
