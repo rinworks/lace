@@ -40,7 +40,12 @@ Rather than scale to fit, we can truncate the square viewBox to fit the rectangu
 ![svg viewport slicing](../exp/svgs/viewport2.svg)
 
 ### Transforms
+Transforms are a way to take a shape and apply translation, rotation and scaling operations. In the picture below, the grey and blue rectangles are translated (shifted) in the x and y dimension respectively. The red rectangle is rotated by 15 degrees and scaled by 2 as well. The transform attribute for the red rectangle is `transform="translate(80,40) rotate(15) scale(2)"`.
+
+![svg transform](../exp/svgs/transform.svg)
+
 The Transform implementations seem to have a bug that is now universal. Transforms specified in the *transform* attribute are applied in reverse order despite the spec saying the opposite. See [this thread](https://stackoverflow.com/questions/18582935/the-applying-order-of-svg-transforms) for the gory details.
+
 
 ### References
 - [tavmjong's guide](http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-SVG-Positioning.html)

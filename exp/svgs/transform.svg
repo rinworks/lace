@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="150
+    ">
+    <title>Transform Example</title>
+    <desc>Example of SVG transform attribute</desc>
+    <defs>
+        <rect id="R1" x="0" y="0" width="30" height="20" style="stroke:black; " />
+    </defs>
+
+    <use xlink:href="#R1" />
+    <!-- Rectangle shifted by 40 units to the right -->
+    <use xlink:href="#R1"  transform="translate(40, 0)" style="fill:grey" />
+    <!-- Rectangle shifted by 40 units down -->
+    <use xlink:href="#R1"  transform="translate(0, 40)" style="fill:blue" />
+    <!-- Rectangle shifted by 40 units right and down and rotated clockwise by 15 degrees  -->
+    <use xlink:href="#R1"  transform="translate(40,40) rotate(15)" style="fill:green" />
+    <!-- Rectangle shifted right, down, scaled by 2 and rotated clockwise by 15 degrees -->
+    <use xlink:href="#R1"  transform="translate(80,40) rotate(15) scale(2)" style="fill:red" />
+</svg>
