@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-  <line id="l1" x1="10" y1="100" x2="50" y2="120" stroke="grey" stroke-width="2"/>
-  <polyline id="pl1" points="70,100 90,120 110,100 130,120" fill="none" stroke="grey" stroke-width="2"/>
-  <rect id="rect1" x="10" y="10" width="30" height="20" fill="red"/>
-  <circle id="circle1" cx="20" cy="50" r="15" fill="cyan"/>
-  <polygon id="tri1" points="50,60 40,80 60,80" fill="pink"/>
-  <ellipse id="el1" cx="100" cy="50" rx="20" ry="10" fill="green"/>
-</svg>

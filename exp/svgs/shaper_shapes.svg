@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="160mm" height="120mm" viewBox="0 0 320 240">
+  <title>Shaper Origin Cut Types</title>
+  <desc>SVG representation of Shaper Origin cut types - inside, outside, on-line, pocket and guide</desc>
+  <!-- Use physical units (mm, cm, in) for Origin designs. 
+  In this example, the choice of width, height and viewbox specify one unit is 0.5 mm-->
+  <!-- grey stroke is used for inline cuts -->
+  <line id="l1" x1="100" y1="100" x2="150" y2="120" stroke="grey" stroke-width="2"/>
+  <polyline id="pl1" points="150,100 170,120 190,100 210,120" fill="none" stroke="grey" stroke-width="2"/>
+  <!-- blue fill or stroke is used for guide cuts -->
+  <rect id="rect1" x="20" y="20" width="280" height="200" stroke="blue" fill="none"/>
+  <!-- grey fill is used for pocket cuts -->
+  <circle id="circle1" cx="70" cy="50" r="15" fill="grey"/>
+  <!-- black fill and black stroke is used for exterior cuts -->
+  <polygon id="tri1" points="150,60 140,80 160,80" stroke="black" fill="black"/>
+  <!-- white fill and black stroke is used for interior cuts -->
+  <ellipse id="el1" cx="200" cy="50" rx="20" ry="10" stroke="black" fill="white"/> 
+  <!-- text below doesn't currently render on the origin -->
+  <text x="50" y="150" style="font-family: sans-serif; font-size:8pt; fill:blue;">Shaper Origin Cut Types</text>
+  <text x="50" y="160" style="font-family: sans-serif; font-size:8pt; fill:blue;">Interior: White Fill, Black stroke</text>
+  <text x="50" y="170" style="font-family: sans-serif; font-size:8pt; fill:blue;">Exterior: Black Fill, Black stroke</text>
+  <text x="50" y="180" style="font-family: sans-serif; font-size:8pt; fill:blue;">Pocket: Grey fill</text>
+  <text x="50" y="190" style="font-family: sans-serif; font-size:8pt; fill:blue;">Guide: Blue Fill or Blue Stroke</text>
+</svg>
