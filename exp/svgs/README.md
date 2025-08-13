@@ -12,3 +12,6 @@ testshape_ink imported into Shaper Studio and minimally modified to add cut info
 *testshape-ink-studio-ink.svg*
 
 testshape-ink-studio reimported into Inkscape and saved without change. Some inkscape view headings are added but otherwise it is unmodified. The shape object has become a path.
+
+*[primitives]*
+Folder of very simple shapes. Used for developing, debugging and testing
