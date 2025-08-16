@@ -5,7 +5,7 @@ parameters. We do not place any constraint on how these fields are themselves ge
 parameters they contain.
 
 **Examples:**
-- *Symmetry fields*exhibits different kinds of 2D symmetry groups tiled over the surface. One
+- *Symmetry fields* exhibits different kinds of 2D symmetry groups tiled over the surface. One
   example of this is a checkerboard pattern that dictates the preferred orientation of objects within
   each square).
 - *Random fields* provide a vector of probability values. One example is a field that directs that
