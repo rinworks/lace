@@ -62,7 +62,10 @@ To get a a Python development environment that works for testing the Inkscape ex
    python distribute_along_path.py --id=g12668 --id=path8143 tests/data/svg/scatter.svg
     ```
     The above example spits the modified svg to standard out by default.
-1. Debug an extension in vscode using the Python debugging support. Make the extension .py file active in VSCODE and then use *Run->Start Debugging* or the debugger button on the left pane. The basic way (using the launch.json config) is to pass the command line arguments when prompted.  For example if *distribute_along_path.py* is the active file, `--id=g12668 --id=path8143 tests/data/svg/scatter.svg` can be entered in the *Command Line Arguments* prompt. Use standard debugger methods like F9 to set a breakpoint and F10 to step over.
+1. Link the project to VS Code. One way to do this is to open an instance of Ubuntu, cd to the project `lace`, and run `code .`(dot). This will open VS Code on Windows with a connection to a WSL instance already "cd'd" to the folder from where you ran the `code .` command. In subsequent VS Code sessions, this option will be listed among the `Recent` sessions when you start VSCode, for example `lace [WSL: Ubuntu-24.04] ~/github`. Once opened, the status bar at the bottom of the VS Code screen should list the following information:
+    - (Lower left) WSL instance name (like "WSL: Ubuntu-24.04")
+    - (Lower right) Python version and name of Python virtual environment if activated
+1. Debug an extension in VS Code using the Python debugging support. Make the extension .py file active in VS Code and then use *Run->Start Debugging* or the debugger button on the left pane. The basic way (using the launch.json config) is to pass the command line arguments when prompted.  For example if *distribute_along_path.py* is the active file, `--id=g12668 --id=path8143 tests/data/svg/scatter.svg` can be entered in the *Command Line Arguments* prompt. Use standard debugger methods like F9 to set a breakpoint and F10 to step over.
 
 
 
