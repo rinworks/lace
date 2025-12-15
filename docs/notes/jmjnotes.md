@@ -1,6 +1,9 @@
 # Ongoing notes for this project
 (more recent notes first)
 
+# December 15, 2025
+- We've been setting up our own clone of lace on github...
+
 # August 13 2025 Plan for exploring transforms...
     - Goal is a short primer on inkex use of transforms with links to sources
     - Start investigation with NotebookLM
