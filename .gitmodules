@@ -1,4 +1,4 @@
 [submodule "extensions"]
 	path = extensions
 	url = https://github.com/rinworks/inkex_fork.git
-	branch = 1.4.x
+	branch = inkex_dev
